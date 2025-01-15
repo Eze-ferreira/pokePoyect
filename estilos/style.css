@@ -2,13 +2,37 @@
     padding: 0;
     margin: 0;
 }
-header{
-    background-color: rgb(165, 197, 224);
-}
-.body {
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D1261047&psig=AOvVaw2odjfHZIW-BtdHexHJa8Mq&ust=1729195124239000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICcz_rXk4kDFQAAAAAdAAAAABAE);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #ef5350;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #search {
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 80%;
+    border-radius: 5px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  #pokemon-list, #team-builder {
+    width: 45%;
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
   }
   
